@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sono:wght@400;700&display=swap"
+        rel="stylesheet">
+
     <title>Etch-a-sketch</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <div class="main">
-        <h3 class="title">Etch-a-sketch</h3>
-        <button class="size-btn">Set Board Size</button>
-        <div class="sketch-board">
+    <main>
+
+        <div class="container">
+            <div class="top">
+                <div class="title-container">
+                    <h1 class="title">Etch-a-sketch</h1>
+                </div>
+                <div class="function-container">
+                    <div class="slider">
+                        <input type="range" min="2" max="128" step="2" value="16" class="slider__input"
+                            name="board-size" id="board-size">
+                        <label for="board-size">Size:</label>
+                        <p class="slider__value" id="board-size-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sketch-board">
+            </div>
+
+            <div class="bottom">
+                <button class="btn" id="reset" type="button">Reset</button>
+                <button class="btn" id="random" type="button">Random Mode</button>
+                <button class="btn" id="eraser" type="button">Eraser</button>
+                <div class="color">
+                    <input type="color" class="color__input" id="color" name="color" value="#000000">
+                    <label for="color">Color:</label>
+                </div>
+            </div>
         </div>
-    </div>
+
+    </main>
 </body>
+
 </html>

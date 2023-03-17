@@ -1,0 +1,23 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "Etch-a-sketch implemented in JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-fa/etch-a-sketch.git"
+  },
+  "author": "dev-fa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-fa/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/dev-fa/etch-a-sketch#readme",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0"
+  }
+}
