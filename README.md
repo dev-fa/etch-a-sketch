@@ -17,7 +17,7 @@ A JavaScript Implementation of etch-a-sketch
 
 ## Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [etch-a-sketch](https://dev-fa.github.io/etch-a-sketch/)
 
 ## Built with
 
