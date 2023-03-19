@@ -27,8 +27,8 @@
                 </div>
                 <div class="function-container">
                     <div class="slider">
-                        <input type="range" min="2" max="128" step="2" value="16" class="slider__input"
-                            name="board-size" id="board-size">
+                        <input type="range" min="4" max="64" step="2" value="16" class="slider__input" name="board-size"
+                            id="board-size">
                         <label for="board-size">Size:</label>
                         <p class="slider__value" id="board-size-text"></p>
                     </div>
@@ -39,8 +39,8 @@
             </div>
 
             <div class="bottom">
+                <button class="btn" id="toggle-border" type="button">Toggle Borders</button>
                 <button class="btn" id="reset" type="button">Reset</button>
-                <button class="btn" id="random" type="button">Random Mode</button>
                 <button class="btn" id="eraser" type="button">Eraser</button>
                 <div class="color">
                     <input type="color" class="color__input" id="color" name="color" value="#000000">

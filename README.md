@@ -12,7 +12,8 @@ A JavaScript Implementation of etch-a-sketch
 
 ## Screenshots
 
-Paste project screenshots here
+![Desktop View Light](./desktop-preview-borders.png 'Desktop Borders')
+![Desktop View Dark](./desktop-preview-noborders.png 'Desktop No Borders')
 
 ## Links
 
