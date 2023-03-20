@@ -1,4 +1,4 @@
-# Project Title
+# Etch-a-sketch
 
 A JavaScript Implementation of etch-a-sketch
 
